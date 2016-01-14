@@ -1,4 +1,4 @@
-package com.miller.intuit.oauthflow.browser;
+package com.miller.oauthflow.browser;
 
 import java.awt.Desktop;
 import java.io.IOException;

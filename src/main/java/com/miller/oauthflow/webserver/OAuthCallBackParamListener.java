@@ -1,4 +1,4 @@
-package com.miller.intuit.oauthflow.webserver;
+package com.miller.oauthflow.webserver;
 
 import java.util.Map;
 

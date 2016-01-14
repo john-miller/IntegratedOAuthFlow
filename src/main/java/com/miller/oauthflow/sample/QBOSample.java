@@ -1,14 +1,16 @@
-package com.miller.intuit.sample;
+package com.miller.oauthflow.sample;
 
 import java.util.Map;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-import com.miller.intuit.oauthflow.browser.DefaultBrowserLauncher;
-import com.miller.intuit.oauthflow.browser.OAuthBrowserException;
-import com.miller.intuit.oauthflow.webserver.OAuthCallBackParamListener;
-import com.miller.intuit.oauthflow.webserver.OAuthCallBackServer;
-import com.miller.intuit.oauthflow.webserver.OAuthCallBackWebServerException;
-import com.miller.intuit.oauthflow.webserver.SimpleSocketServerImpl;
+
+import com.miller.oauthflow.browser.DefaultBrowserLauncher;
+import com.miller.oauthflow.browser.OAuthBrowserException;
+import com.miller.oauthflow.webserver.OAuthCallBackParamListener;
+import com.miller.oauthflow.webserver.OAuthCallBackServer;
+import com.miller.oauthflow.webserver.OAuthCallBackWebServerException;
+import com.miller.oauthflow.webserver.SimpleSocketServerImpl;
+
 import oauth.signpost.basic.DefaultOAuthConsumer;
 import oauth.signpost.basic.DefaultOAuthProvider;
 import oauth.signpost.exception.OAuthCommunicationException;
@@ -16,7 +18,7 @@ import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
 import oauth.signpost.exception.OAuthNotAuthorizedException;
 
-public class Sample {
+public class QBOSample {
 	
 	private static final String QB_APP_TOKEN_SECRET_ID = "oauth_verifier";
 	private static final String QB_REALM_ID = "realmId";
@@ -32,10 +34,10 @@ public class Sample {
 	private static final String HTMLRESPONSE = "<html><title>OAuth Browser</title><body><h2>Process complete, you may now close this window.</h2></body></html>";
 	
 	public static void main(String[] args) {
-		new Sample();
+		new QBOSample();
 	}
 		
-	public Sample() {
+	public QBOSample() {
 		try {
 			
 			/* Get the auth url */

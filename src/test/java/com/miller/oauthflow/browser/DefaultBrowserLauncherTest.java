@@ -1,8 +1,11 @@
-package com.miller.intuit.oauthflow.browser;
+package com.miller.oauthflow.browser;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.miller.oauthflow.browser.DefaultBrowserLauncher;
+import com.miller.oauthflow.browser.OAuthBrowserException;
 
 public class DefaultBrowserLauncherTest {
 

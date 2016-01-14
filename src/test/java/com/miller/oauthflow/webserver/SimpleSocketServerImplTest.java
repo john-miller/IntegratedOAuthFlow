@@ -1,8 +1,12 @@
-package com.miller.intuit.oauthflow.webserver;
+package com.miller.oauthflow.webserver;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.miller.oauthflow.webserver.OAuthCallBackServer;
+import com.miller.oauthflow.webserver.OAuthCallBackWebServerException;
+import com.miller.oauthflow.webserver.SimpleSocketServerImpl;
 
 public class SimpleSocketServerImplTest {
 

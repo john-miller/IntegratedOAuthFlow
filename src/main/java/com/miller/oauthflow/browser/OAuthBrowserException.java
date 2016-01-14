@@ -1,4 +1,4 @@
-package com.miller.intuit.oauthflow.browser;
+package com.miller.oauthflow.browser;
 
 public class OAuthBrowserException  extends Exception {
 
