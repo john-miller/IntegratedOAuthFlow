@@ -37,31 +37,6 @@
 		<version>1.2</version>
 	</dependency>
 	
-	<dependency>
-		<groupId>intuit</groupId>
-		<artifactId>ipp-java-qbapihelper</artifactId>
-		<version>1.2.1</version>
-		<scope>system</scope>
-		<systemPath>${project.basedir}/lib/ipp-java-qbapihelper-1.2.1.jar</systemPath>
-	</dependency>
-	
-	<!-- Must be added to local or production repo -->
-	<dependency>
-		<groupId>intuit</groupId>
-		<artifactId>ipp-v3-java-devkit</artifactId>
-		<version>2.4.0</version>
-		 <scope>system</scope>
-		 <systemPath>${project.basedir}/lib/ipp-v3-java-devkit-2.4.0.jar</systemPath>
-	</dependency>
-		
-	<!-- Must be added to local or production repo -->
-	<dependency>
-		<groupId>intuit</groupId>
-		<artifactId>ipp-v3-java-data</artifactId>
-		<version>2.4.0</version>
-		 <scope>system</scope>
-		 <systemPath>${project.basedir}/lib/ipp-v3-java-data-2.4.0.jar</systemPath>
-	</dependency>
    
   </dependencies>
 </project>
